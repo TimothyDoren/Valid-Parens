@@ -10,7 +10,6 @@ namespace Valid_Parens
     {
         public bool IsValid(string s)
         {
-            bool isValid = false;
             Stack<char> parens = new Stack<char>();
             foreach (char p in s)
             {
